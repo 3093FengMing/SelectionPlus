@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "selectionplus",
+  "version": "${version}",
+  "name": "SelectionPlus",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/FengMing/SelectionPlus"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/selectionplus/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "me.fengming.selectionplus.SelectionPlus"
+    ]
+  },
+  "mixins": [
+    "SelectionPlus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.18",
+    "minecraft": "1.16.5"
+  }
+}
